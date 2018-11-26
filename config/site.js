@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'en',
-  name: 'Cool Inc.',
-  title: 'Cool Inc.',
-  url: 'https://cool.inc',
+  name: 'zhinga',
+  title: 'ba kheir bin',
+  url: 'https://har-bezhi-guys.netlify.com/',
   themeColor: '#fb1',
 };
