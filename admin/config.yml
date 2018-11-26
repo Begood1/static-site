@@ -9,7 +9,7 @@ media_folder: 'source/images'
 # media_library:
 #   name: uploadcare
 #   config:
-    publicKey: 
+    # publicKey: 
 
 collections:
   - name: 'pages'
