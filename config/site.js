@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'en',
-  name: 'zhinga',
-  title: 'ba kheir bin',
-  url: 'https://har-bezhi-guys.netlify.com/',
+  name: 'Geze',
+  title: 'Yero',
+  url: 'https://yero.netlify.com/',
   themeColor: '#fb1',
 };
