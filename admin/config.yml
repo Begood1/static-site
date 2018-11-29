@@ -2,14 +2,17 @@ backend:
   name: git-gateway
   branch: master
 
-# display_url: 
-# logo_url: 
+ display_url: 'https://yero.netlify.com/'
+ logo_url: https://yero.netlify.com/assets/favicons/android-chrome-384x384.png
 public_folder: '/images'
 media_folder: 'source/images'
-# media_library:
-#   name: uploadcare
-#   config:
-    # publicKey: 
+ media_library:
+  name: uploadcare
+  config:
+  publicKey: 
+007a43026cafa8857be4
+
+
 
 collections:
   - name: 'pages'
