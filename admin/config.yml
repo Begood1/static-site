@@ -22,22 +22,7 @@ collections:
         file: 'pages/one.md'
         fields:
           - {label: 'Title', name: 'title', widget: 'string'}
-          - {label: 'summary', name: 'summary', hint: 'Will be displayed as a larger text', widget: 'text'}
+          - {label: 'Slug', name: 'slug', widget: 'hidden', default: 'one'}
+          - {label: 'Tags', name: 'tag', widget: 'hidden', default: 'nav'}
+          - {label: 'Summary', name: 'summary', hint: 'Will be displayed as a larger text', widget: 'text'}
           - {label: 'Body', name: 'body', widget: 'markdown'}
-             
-  
-#   # - name: 'posts'
-#   #   label: 'Posts'
-#   #   label_singular: 'Post'
-#   #   description: The description is a great place for tone setting, high level information, and editing guidelines that are specific to a collection.
-#   #   folder: 'source/_posts'
-#   #   editor:
-#   #     preview: false
-#   #   create: true
-#   #   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-#   #   fields:
-#   #     - {label: 'Title', name: 'title', widget: 'string'}
-#   #     - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-#   #     - {label: 'Cover Image', name: 'image', widget: 'image', required: false}
-#   #     - {label: 'Language', name: 'language', widget: 'select', options: ['en', 'fr']}
-#   #     - {label: 'Body', name: 'body', widget: 'markdown'}
