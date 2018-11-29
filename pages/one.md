@@ -1,11 +1,8 @@
 ---
-title: Page One
-summary: The summary for page one
+title: Updated Page One Title
 slug: one
-tags: nav
+summary: I am a new exciting content
 ---
 ## Hey
 
-fshfkj fdhfgjd jdfgdjfhqkfjakfjamfhihdfjsfdhjwq hhiiii
-
-ejfhe hefhejefg qquhdjhdgsfh  gfdhqwg hagd
+Hello world!
