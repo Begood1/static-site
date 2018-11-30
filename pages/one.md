@@ -1,7 +1,8 @@
 ---
-title: Updated Page One Title
+title: Page One 
 slug: one
-tag: nav
+tags: nav
+layout: one
 summary: I am a new exciting content
 ---
 ## Hey
