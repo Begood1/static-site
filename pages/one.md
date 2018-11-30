@@ -1,6 +1,7 @@
 ---
-title: ' Page one'
+title: Page one
 slug: one
+tags: nav
 summary: This is page one
 ---
 ## Investment in Ethiopia!
