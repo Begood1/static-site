@@ -1,7 +1,7 @@
 ---
-title: ' Page One '
+title: ' Page three'
 slug: one
-summary: I am a new exciting content
+summary: This is page three
 ---
 ## Investment in Ethiopia!
 ![](https://ucarecdn.com/ed1cbee0-7261-4d0a-843a-cb46d9fad80d/)
