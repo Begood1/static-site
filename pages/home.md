@@ -1,5 +1,5 @@
 ---
-title:home
+title: home
 slug: home
 tags: nav
 layout: home
