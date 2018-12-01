@@ -1,14 +1,20 @@
 {% include 'includes/head.html' %}
   {% include 'includes/svg.html' %}
   {% include 'includes/header.html' %}
-
   <main class="wrapper">
+    {% if content == '' %}
+    {% if layout != 'faq' and content == '' %}
+      {% include 'includes/empty.html' %}
+    {% else %}
+      {% block content %}{% endblock %}
+
+  {% comment %} <main class="wrapper">
     {% if content == '' %}
       {% include 'includes/empty.html' %}
     {% else %}
       {% block content %}{% endblock %}
     {% endif %}
-  </main>
+  </main> {% endcomment %}
 
   {% include 'includes/footer.html' %}
   {% include 'includes/scripts.html' %}
