@@ -1,7 +1,41 @@
-h5 {
-  font-size: 26px line-height: 34px font-weight: 300 letter-spacing: 1px display: block background-color: $white margin: 0 cursor: pointer @extend .no-select
-}
+.accordion {
+  &__item {
+    position: relative;
+    border-bottom: 1px solid $gray-300;
 
-p {
-  color: $black font-size: 17px line-height: 26px letter-spacing: 1px position: relative overflow: hidden max-height: 800px @extend .transition opacity: 1 transform: translate(0, 0) margin-top: 14px z-index: 2
+    svg {
+      position: absolute;
+      top: $h;
+      right: $h;
+      fill: $gray-300;
+      size: $s*1.75;
+      transform: rotate(45deg);
+      transition: transform $regular ease-in-out;
+    }
+
+    p {
+      max-height: $s*50;
+      opacity: 1;
+      transition: all $fast ease-in-out;
+    }
+
+    input {
+      position: absolute;
+      margin: 0;
+      size: 100%;
+      opacity: 0;
+      cursor: pointer;
+
+      &:checked {
+        &~p {
+          max-height: 0;
+          opacity: 0;
+        }
+
+        &~svg {
+          transform: rotate(0);
+        }
+      }
+    }
+  }
 }
