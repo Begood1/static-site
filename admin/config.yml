@@ -35,8 +35,8 @@ collections:
           - {label: 'Tags', name: 'tag', widget: 'hidden', default: 'nav'}
           - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'faq'}  
           - label: question
-          - name: question
-          - widjet: list
-          fields:
-             - {label: Question, name: question,widget: string'}
-             - {label: Answer,name : answer,widget: text'}
+            name: question
+            widget: list
+            fields:
+              - {label: Question, name: question, widget: string'}
+              - {label: Answer, name : answer,widget: text'}
