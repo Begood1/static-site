@@ -25,3 +25,18 @@ collections:
           - {label: 'Tags', name: 'tag', widget: 'hidden', default: 'nav'}
           - {label: 'Summary', name: 'summary', hint: 'Will be displayed as a larger text', widget: 'text'}
           - {label: 'Body', name: 'body', widget: 'markdown'}
+     
+      - label: 'FAQ'
+        name: 'faq'
+        file: 'pages/faq.md'
+        fields:
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Slug', name: 'slug', widget: 'hidden', default: 'one'}
+          - {label: 'Tags', name: 'tag', widget: 'hidden', default: 'nav'}
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'faq'}  
+          - label: question
+          - name: question
+          - widjet: list
+          fields:
+             - {label: Question, name: question,widget: string'}
+             - {label: Answer,name : answer,widget: text'}
