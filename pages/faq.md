@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Frequently Asked question
 question:
   - answer: ' Mr. Cool'
     question: ' What is your name?'
