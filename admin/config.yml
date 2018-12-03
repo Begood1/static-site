@@ -40,6 +40,8 @@ collections:
             fields:
               - {label: 'Question', name: 'question', widget: 'string'}
               - {label: 'Answer', name : 'answer',widget: 'text'}
+
+              
   - name: 'settings'
     label: 'Settings'
     delete: false
@@ -59,3 +61,22 @@ collections:
               - { label: 'Default Title', name: 'title', widget: 'string' }
               - { label: 'Home URL', name: 'url', widget: 'string', hint: 'Must starts with https://' }
               - { label: 'Theme Color', name: 'themeColor', widget: 'string', hint: 'Hex value of a color. For example, #ffffff' }
+
+  - name: 'events'
+    label: 'Events'
+    editor:
+      preview: false
+    folder: 'events'
+    create: true
+    slug: '{{slug}}'
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Date', name: 'date', widget: 'date'}
+      - {label: 'location', name: 'location',widget: 'string'}
+      - {label: 'Image', name: 'image', widget: 'image', required: false}
+      - {label: 'Body', name: 'body', widget: 'markdown'}   
+        label: 'Tags' 
+        name :  'tags'
+        widget: 'list'
+        hint: "coma separeted values and must include'event' for example event,food ,sport"
+      - {label: 'Body', name: 'body', widget: 'markdown'}      
+      
