@@ -3,11 +3,6 @@
   {% include 'includes/header.html' %}
    <main class="wrapper">
    
-    {% comment %} {% if content == '' %}
-    {% include 'includes/faq.html' %}
-    {% if layout != 'faq' and content == '' %}
-      {% include 'includes/empty.html' %}
-    {% else %}  {% endcomment %}
       {% block content %}{% endblock %}
 
   {% include 'includes/footer.html' %}
