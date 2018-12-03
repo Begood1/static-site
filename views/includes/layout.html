@@ -2,14 +2,9 @@
   {% include 'includes/svg.html' %}
   {% include 'includes/header.html' %}
    <main class="wrapper">
-   {%if config.site.skipEmpty contains page.files}
       {% block content %}{% endblock %}
-
   {% include 'includes/footer.html' %}
   {% include 'includes/scripts.html' %}
-  
-    
-  {% endfor %}
 </body>
 
 </html>

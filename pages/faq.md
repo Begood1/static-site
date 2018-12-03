@@ -1,5 +1,7 @@
 ---
 title: Frequently Asked question
+slug: faq
+navtitle: About us
 question:
   - answer: ' Mr. Cool'
     question: ' What is your name?'
