@@ -1,5 +1,5 @@
 ---
-title: This is my first post
+title: This is my first posts
 date: 2015-01-01
 location: Jakarta
 tags:
