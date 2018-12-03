@@ -41,12 +41,12 @@ collections:
               - {label: 'Question', name: 'question', widget: 'string'}
               - {label: 'Answer', name : 'answer',widget: 'text'}
               
-- name: 'settings'
- label: 'Settings'
- delete: false
- editor:
-  preview: false
-    files:
+  - name: 'settings'
+    label: 'Settings'
+    delete: false
+    editor:
+      preview: false
+        files:
       - label: 'Site Settings'
         name: 'settings'
         file: 'config/config.json'
