@@ -2,7 +2,9 @@
 title: Frequently Asked question
 slug: faq
 questions:
-  - answer: my name is cool
+  - answer: Mr. Cool
     question: what is your name ?
+  - answer: Cool Street
+    question: ' What is your address?'
 ---
 
