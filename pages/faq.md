@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked question
+title: FAQ
 slug: faq
 questions:
   - answer: Mr. Cool
