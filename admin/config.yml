@@ -40,7 +40,7 @@ collections:
             fields:
               - {label: 'Question', name: 'question', widget: 'string'}
               - {label: 'Answer', name : 'answer',widget: 'text'}
-  - name: 'events' 
+  - name: 'events'
     label: 'Events'
     editor:
       preview: false
@@ -52,13 +52,12 @@ collections:
        - {label: 'Date', name: 'date', widget: 'date'}
        - {label: 'location', name: 'location',widget: 'string'}
        - {label: 'Image', name: 'image', widget: 'image', required: false}
-       - {label: 'Body', name: 'body', widget: 'markdown'}   
-       - label: 'Tags' 
-         name : 'tags'
+       - label: 'Tags'
+         name: 'tags'
          widget: 'list'
-         hint: "coma separeted values and must include'event' for example event,food ,sport"
-      - {label: 'Body', name: 'body', widget: 'markdown'}   
-              
+         hint: "comma separated values and must include 'event'. For example: event, tech, food, sport"
+        - {label: 'Body', name: 'body', widget: 'markdown'} 
+
   - name: 'settings'
     label: 'Settings'
     delete: false
