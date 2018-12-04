@@ -1,11 +1,8 @@
 ---
 title: Frequently Asked question
 slug: faq
-navtitle: About us
-question:
-  - answer: ' Mr. Cool'
-    question: ' What is your name?'
-  - answer: Cool Street
-    question: What is your address?
+questions:
+  - answer: my name is cool
+    question: what is your name ?
 ---
 
