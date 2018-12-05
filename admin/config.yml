@@ -54,7 +54,23 @@ collections:
         widget: 'list'
         hint: "Comma separated values and must include 'event'. For example: event, tech, food, sport"
       - {label: 'Body', name: 'body', widget: 'markdown'}
-    
+  - name: 'post'
+    label: 'post'
+    editor:
+      preview: false
+    folder: 'pages'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Date', name: 'date', widget: 'date'}
+      - {label: 'Location', name: 'location', widget: 'string'}
+      - {label: 'Image', name: 'image', widget: 'image', required: false}
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        hint: "Comma separated values and must include 'event'. For example: event, tech, food, sport"
+      - {label: 'Body', name: 'body', widget: 'markdown'}  
   - name: 'settings'
     label: 'Settings'
     delete: false

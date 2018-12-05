@@ -1,29 +1,21 @@
-<form name="Comments" class="form" netlify>
-<label for="Name">
-<input type="text" name="name" class="name"placeholder="Enter your name"required><
-</label>
-<label for="Email">
-<input type="email" name="email" class="email"placeholder="Inter your email here..."required>
-</label>
-<button type="submit">Submit</button>
-</form>
-{% comment %} <form name="contact" method="POST" netlify>
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form> {% endcomment %}
+
+<form name="form" class="form" netlify>
+  <label>
+    Name
+    <input type="text" name="name" placeholder="Enter your name" required>
+  </label>
+  <label>
+    Email
+    <input type="email" name="email" placeholder="Enter your email here" required>
+  </label>
+  <label>
+    Comment
+    <textarea name="comment" placeholder="write your comment here" required></textarea>
+  </label>
+  <div>
+<h1> page not found<h1>
+{{content}}
+{%endblock%}
+
+
+
