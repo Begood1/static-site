@@ -14,6 +14,7 @@ collections:
     label: 'Pages'
     editor:
       preview: false
+      create: true
     files:
       - label: 'Page One'
         name: 'one'
