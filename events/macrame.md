@@ -5,8 +5,7 @@ location: Bogor
 tags:
     - event
     - tech
-    - sport
-     
+    - sport   
 ---
 ![Gowadegnye Berta](https://ucarecdn.com/6bbc2b15-779d-405c-a141-ab8056ed0ad6/)
 

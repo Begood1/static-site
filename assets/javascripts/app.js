@@ -1,4 +1,4 @@
-// import '../stylesheets/style.scss';
+import '../stylesheets/style.scss';
 // import qs from 'qs';
 // import axios from 'axios';
 // import * as config from '../../config/config.json';
