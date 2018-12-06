@@ -2,7 +2,7 @@
 title: This is my first posts
 date: 2015-01-01T00:00:00.000Z
 location: Jakarta
-image: 'https://ucarecdn.com/cfa0f48a-19fd-4d3d-b4b5-6776f888cea3/'
+image: 'https://ucarecdn.com/5be8c594-ad60-441c-bfbd-1f395c2bbf97/'
 tags:
   - event
   - tech
