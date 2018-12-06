@@ -2,10 +2,11 @@
 title: macrame
 date: 2018-12-05T10:33:56.358Z
 location: Bogor
+image: 'https://ucarecdn.com/347d74c2-0606-49f3-b2d1-aaedc4496908/'
 tags:
-    - event
-    - tech
-    - sport   
+  - event
+  - tech
+  - sport
 ---
 ![Gowadegnye Berta](https://ucarecdn.com/6bbc2b15-779d-405c-a141-ab8056ed0ad6/)
 
