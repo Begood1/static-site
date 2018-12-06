@@ -6,6 +6,7 @@ import * as config from '../../config/config.json';
 const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const comment = document.querySelector('.comment');
+const name = document.querySelector('.name');
 const priority = document.querySelector('input[name="priorty"]:checked').value;
 const formData = {
   Name: name.value,
@@ -18,7 +19,7 @@ const formData = {
 const handleSubmit = e => {
   e.preventDefault();
   axios
-    .post(config.site.url, qs.stringify({ 'form-name': 'config.form.name', ...formData }))
+    .post(config.site.url, qs.stringify({ 'form-name': config.form.name, ...formData }))
     .then(_ => console.log('success'))
     .catch(_ => console.log('failed'));
 };
