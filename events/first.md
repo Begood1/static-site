@@ -1,11 +1,12 @@
 ---
 title: This is my first posts
-date: 2015-01-01
+date: 2015-01-01T00:00:00.000Z
 location: Jakarta
+image: 'https://ucarecdn.com/5be8c594-ad60-441c-bfbd-1f395c2bbf97/'
 tags:
-    - event
-    - tech
-    - sport
+  - event
+  - tech
+  - sport
 ---
 The ongoing economic and political structural reform will have significant impact to realize the country’s manufacturing goals, according to Investment Commission.
 
