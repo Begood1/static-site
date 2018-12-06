@@ -146,16 +146,3 @@ collections:
             fields:
               - { label: 'Image', name: 'image', widget: 'image' }
               - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-    
