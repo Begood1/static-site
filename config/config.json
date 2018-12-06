@@ -1,21 +1,9 @@
 {
-  "site": {
-    "name": "Geze",
-    "lang": "en",
-    "title": "Yero",
-    "url": "https://yero.netlify.com/",
-    "themeColor": "#fb1",
-    "logoOrientation": "right"
-  }
-},
-``
-`
-{
     "site": {
         "name": "Milo & Finn",
         "lang": "en",
         "title": "Welcome to my website",
-        "url": "https://miloandfinn.netlify.com",
+        "url": "https://yero.netlify.com/",
         "description": "",
         "themeColor": "#fb1",
         "skipEmpty": ["home", "faq", "events"],
@@ -33,7 +21,7 @@
     "analytics": {
         "google": "GTM-KF5SH47",
         "twitter": "handle",
-        "facebook": "1234567890"
+        "facebook": "778210095861577"
     },
     "form": {
         "name": "Red"
@@ -43,5 +31,3 @@
         "thumbnail": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg"
     }
 }
-`
-``
