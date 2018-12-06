@@ -7,17 +7,18 @@ const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const comment = document.querySelector('.comment');
 const name = document.querySelector('.name');
-const priority = document.querySelector('input[name="priorty"]:checked').value;
-const formData = {
-  Name: name.value,
-  Email: email.value,
-  Comment: comment.value,
-  priority: priority.value,
-};
+
 // ðŸ‘† Write homework code here
 
 const handleSubmit = e => {
   e.preventDefault();
+  const formData = {
+    name: name.value,
+    email: email.value,
+    comment: comment.value,
+    priority: document.querySelector('input[name="priority"]:checked').value,
+    topic: [...document.querySelectorAll('input[name="topic"]:checked')].map(v => v.value),
+  };
   axios
     .post(config.site.url, qs.stringify({ 'form-name': config.form.name, ...formData }))
     .then(_ => console.log('success'))
