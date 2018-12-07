@@ -1,11 +1,12 @@
 ---
 title: This is my second post
-date: 2015-01-01
+date: 2015-01-01T00:00:00.000Z
 location: Jakarta
+image: 'https://ucarecdn.com/5e1f0b05-6587-492a-ab97-99af1177d71d/'
 tags:
-    - event
-    - tech
-    - sport
+  - event
+  - tech
+  - sport
 ---
 Description
 Handmade macrame clutch bags with cotton rope 
