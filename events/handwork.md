@@ -2,7 +2,7 @@
 title: handwork
 date: 2018-12-07T11:19:29.886Z
 location: Bogor
-image: 'https://ucarecdn.com/088160d3-f843-4d6f-b530-c06fe44dfe3b/'
+image: 'https://ucarecdn.com/6c282615-7bf5-46d8-aa52-ff6202483b02/'
 tags:
   - event
 ---
