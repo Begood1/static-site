@@ -1,0 +1,16 @@
+.form {
+    position: relative;
+    width: 95%;
+    color: $gray-800;
+    background: $gray;
+    border-radius: .65rem;
+    margin: 3rem 0 6rem;
+    box-shadow: 0 10px 20px rgba(3, 27, 78, .05);
+    overflow: hidden;
+
+
+    @include from(sm) {
+        width: 31.5rem;
+    }
+
+}
