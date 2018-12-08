@@ -19,7 +19,8 @@
         "instagram": "https://instagram.com/miloandfinn"
     },
     "analytics": {
-        "google": "GTM-KF5SH47",
+        "google": "UA-130101288-1",
+        // "google": "GTM-KF5SH47",
         "twitter": "handle",
         "facebook": "778210095861577"
     },
