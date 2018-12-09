@@ -20,7 +20,6 @@
     },
     "analytics": {
         "google": "UA-130101288-1",
-
         "twitter": "handle",
         "facebook": "778210095861577"
     },
@@ -32,4 +31,3 @@
         "thumbnail": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg"
     }
 }
-// "google": "GTM-KF5SH47",
