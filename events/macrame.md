@@ -8,10 +8,6 @@ tags:
   - tech
   - sport
 ---
-![Gowadegnye Berta](https://ucarecdn.com/6bbc2b15-779d-405c-a141-ab8056ed0ad6/)
-
-## Gowadegnye Berta Berta
-
 Handmade macrame clutch bags with cotton rope 
 
 Boho style clutch bag with fringe tassel.
