@@ -1,33 +1,32 @@
 {
-    "site": {
-        "name": "geze",
-        "lang": "en",
-        "title": "Welcome to my website",
-        "url": "https://yero.netlify.com/",
-        "description": "",
-        "themeColor": "#fb1",
-        "skipEmpty": ["home", "faq", "events"],
-        "webmaster": "admin@email.com",
-        "locales": {
-            "en": "/en",
-            "fr": "/fr"
-        }
-    },
-    "social": {
-        "facebook": "https://facebook.com/miloandfinn",
-        "twitter": "https://twitter.com/miloandfinn",
-        "instagram": "https://instagram.com/miloandfinn"
-    },
-    "analytics": {
-        "google": "UA-130101288-1",
-        "twitter": "handle",
-        "facebook": "778210095861577"
-    },
-    "form": {
-        "name": "Red"
-    },
-    "fallback": {
-        "image": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg",
-        "thumbnail": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg"
+  "site": {
+    "name": "geze",
+    "lang": "en",
+    "title": "Welcome to my website",
+    "url": "https://balepark.netlify.com/",
+    "description": "test",
+    "webmaster": "admin@email.com",
+    "themeColor": "#fb1",
+    "locales": {
+      "en": "/en",
+      "fr": "/fr"
     }
+  },
+  "social": {
+    "facebook": "https://facebook.com/miloandfinn",
+    "twitter": "https://twitter.com/miloandfinn",
+    "instagram": "https://instagram.com/miloandfinn"
+  },
+  "analytics": {
+    "facebook": "778210095861577",
+    "twitter": "handle",
+    "google": "UA-130101288-1"
+  },
+  "form": {
+    "name": "Red"
+  },
+  "fallback": {
+    "image": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg",
+    "thumbnail": "https://uploads-ssl.webflow.com/5bff8886c3964a992e90d465/5c00621b7aefa4f9ee0f4303_wide-shot.svg"
+  }
 }
